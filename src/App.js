@@ -1,10 +1,16 @@
+import LiveMatches from "./Components/LiveMatches";
 
 
 function App() {
   return (
-    <div>
-      
-        Hello chrome user 
+    <div className="text-slate-400">
+   
+      Live Cricket  matches : 
+     
+     <LiveMatches/>
+
+     
+    
     </div>
   );
 }
