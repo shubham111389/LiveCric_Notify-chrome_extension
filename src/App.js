@@ -1,11 +1,12 @@
-import LiveMatches from "./Components/LiveMatches";
-
-
+import LiveMatches from "./Components/LiveMatches"
 function App() {
   return (
-    <div className="text-slate-400">
+    <div className=" text-3xl px-3 shadow-lg py-2">
+      <div className=" flex">
    
-      Live Cricket  matches : 
+      <h1 className="font-bold  opacity-60">Live Cricket🏏  </h1>
+      <span className="font-bold px-2 text-purple-600"> Matches :</span>
+      </div>
      
      <LiveMatches/>
 

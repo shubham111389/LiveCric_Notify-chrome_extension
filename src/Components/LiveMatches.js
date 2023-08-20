@@ -9,13 +9,13 @@ const LiveMatches = () => {
         getMatchData();
     },[] );
 
-    let getMatchData = async () => {
+    const getMatchData = async () => {
         const data = await fetch(MATCHES_API);
         const json = await data.json();
       
         setMatchData(json.data);
       }
-      
+       console.log(matchData)
     
   return (
     <div className='flex flex-col'>

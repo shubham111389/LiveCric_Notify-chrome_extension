@@ -1,4 +1,4 @@
 
 
-export const MY_API_KEY ='716e9e39-2a25-4e7c-a8fb-e2cd1658dfe9';
-export const MATCHES_API ='https://api.cricapi.com/v1/cricScore?apikey='+ MY_API_KEY;
+export const MY_API_KEY ='bef4b6e4-0fbb-4e11-9410-6e16e2ca5ab1&offset=0';//bef4b6e4-0fbb-4e11-9410-6e16e2ca5ab1&offset=0
+export const MATCHES_API ='https://api.cricapi.com/v1/currentMatches?apikey='+ MY_API_KEY;
